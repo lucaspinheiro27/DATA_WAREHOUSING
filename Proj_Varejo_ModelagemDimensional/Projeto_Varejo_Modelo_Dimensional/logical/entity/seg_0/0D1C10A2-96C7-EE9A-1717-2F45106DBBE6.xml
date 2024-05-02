@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D1C10A2-96C7-EE9A-1717-2F45106DBBE6" name="DIM_VAR_VENDEDOR">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:22:03 UTC</createdTime>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_DIM_VAR_VENDEDOR" id="11CCBFC4-32D1-233F-F3C9-964CB2F697D8">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:23:47 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão do Vendedor.  Este atributo será preenchido automaticamente pelo projeto de  ETL.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão do Vendedor.  Este atributo será preenchido automaticamente pelo projeto de  ETL.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_VENDEDOR_ORIGEM" id="1FA6EACF-628E-9C5A-7517-D14F6ACE314C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:25:11 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o códido do Vendedor na origem de dados.  Este atributo será oriundo da origem de dados do vendedor, ou seja, do PDV (Ponto de Venda).]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o códido do Vendedor na origem de dados.  Este atributo será oriundo da origem de dados do vendedor, ou seja, do PDV (Ponto de Venda).]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_VENDEDOR" id="CD4CF591-8B9E-5E34-919B-3A83323DFC27">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:26:48 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o Nome do Vendedor na origem de dados.  Este atributo será oriundo da origem de dados do vendedor, ou seja, do PDV (Ponto de Venda).]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o Nome do Vendedor na origem de dados.  Este atributo será oriundo da origem de dados do vendedor, ou seja, do PDV (Ponto de Venda).]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ORIGEM_DADOS" id="FD7C3CB3-0EE2-332C-3D12-F71010089B0F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:27:40 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o nome da origem de dados.  Este atributo será fornecido na fase de ETL.  ]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o nome da origem de dados.  Este atributo será fornecido na fase de ETL.  ]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2BD23EF-78F5-A7E2-9BC9-3AD1B5E9A0C8" name="SK_DIM_VAR_VENDEDOR">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:24:11 UTC</createdTime>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>11CCBFC4-32D1-233F-F3C9-964CB2F697D8</newElementsIDs>
+<usedAttributes>
+<attributeRef>11CCBFC4-32D1-233F-F3C9-964CB2F697D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

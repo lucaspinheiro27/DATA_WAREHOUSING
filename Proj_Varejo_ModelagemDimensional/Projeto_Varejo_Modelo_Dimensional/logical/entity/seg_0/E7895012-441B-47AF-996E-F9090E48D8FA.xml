@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7895012-441B-47AF-996E-F9090E48D8FA" name="FTO_VAR_VENDAS">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:37:15 UTC</createdTime>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<typeID>1</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_DIM_VAR_PRODUTO" id="47AD05A4-9040-142B-8177-F4F1A7C4DDB2">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 13:23:06 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão do Produto.  Este atributo será preenchido automaticamente pelo projeto de  ETL.]]></comment>
+<generatorID>7562BA84-C785-F4BD-8153-384A36725C91</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<referedAttribute>2375A77E-3177-4138-D8ED-0CA3533C695E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_DIM_VAR_TEMPO" id="F5BF2ED8-2A81-C681-B2E0-194964D82185">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:40:55 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key para a dimensão  Tempo. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<generatorID>6A5905AC-1F1B-C361-2648-31B98233C7B9</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<referedAttribute>57DC5636-A96B-5109-AB59-775A31E10967</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_DIM_VAR_VENDEDOR" id="7B2F07BA-731C-26FC-E508-8160A9F0BB9A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:40:36 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão do Vendedor.  Este atributo será preenchido automaticamente pelo projeto de  ETL.]]></comment>
+<generatorID>D98FA6E4-F772-A17E-791D-CA785F5264EF</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<referedAttribute>11CCBFC4-32D1-233F-F3C9-964CB2F697D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_DIM_VAR_LOJA" id="3CEB40DF-5D97-61AE-A083-8AD09B3AFA91">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 14:22:06 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão da loja.  Este atributo será preenchido pela origem de dados.]]></comment>
+<generatorID>42998D65-0EB2-3C46-CADB-979526B02052</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<referedAttribute>FB5E2923-135B-A1ED-86E0-838363A91A33</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_DIM_VAR_PROMOCAO" id="779573B1-93BE-7133-D411-1E995884E5AD">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 14:19:33 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão de Promoção.  Este atributo será preenchido automaticamente pelo projeto de  ETL.]]></comment>
+<generatorID>0B07065F-BB4A-DDB7-7C16-53BD1895BE72</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<referedAttribute>ACE1B897-11E2-D2E2-2D8E-7FC230CA6794</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_TOT_VENDA" id="B3422E4F-B419-44B0-4ADB-5309E64336EA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:37:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o valor total  da venda feita no varejo. Esse dado será calculado a partir da origem de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o valor total  da venda feita no varejo. Esse dado será calculado a partir da origem de dados.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<importedID>4B989286-AA9B-8FCA-7CF5-E201DC477B51</importedID>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_LUCRO_LIQUIDO" id="AA0446DF-0986-5F0E-AA47-60E82B4A89E8">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 14:23:08 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o valor total  do lucro liquido sobre a  venda feita no varejo. Esse dado será calculado a partir da origem de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o valor total  do lucro liquido sobre a  venda feita no varejo. Esse dado será calculado a partir da origem de dados.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QT_VENDA" id="1B1D0889-721C-8E81-7691-DB22F49C3FB7">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:37:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a quantidade da venda do produto. Esse dado será calculado a partir da origem de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a quantidade da venda do produto. Esse dado será calculado a partir da origem de dados.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<importedID>99F61C1D-6FDB-4218-1B9C-B63E0178DC20</importedID>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QT_DEVOLUCAO" id="EFFC0B3F-CC92-0A09-A14C-38EF70E47D47">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 14:23:51 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a quantidade de devolução da venda do produto. Esse dado será calculado a partir da origem de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a quantidade de devolução da venda do produto. Esse dado será calculado a partir da origem de dados.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5EDD4F3-7544-C65F-BF7E-3D2847C753AD" name="SK_FTO_DIM_VAR_VENDA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:37:15 UTC</createdTime>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>D98FA6E4-F772-A17E-791D-CA785F5264EF,6A5905AC-1F1B-C361-2648-31B98233C7B9,7562BA84-C785-F4BD-8153-384A36725C91,0B07065F-BB4A-DDB7-7C16-53BD1895BE72,42998D65-0EB2-3C46-CADB-979526B02052</newElementsIDs>
+<usedAttributes>
+<attributeRef>7B2F07BA-731C-26FC-E508-8160A9F0BB9A</attributeRef>
+<attributeRef>F5BF2ED8-2A81-C681-B2E0-194964D82185</attributeRef>
+<attributeRef>47AD05A4-9040-142B-8177-F4F1A7C4DDB2</attributeRef>
+<attributeRef>779573B1-93BE-7133-D411-1E995884E5AD</attributeRef>
+<attributeRef>3CEB40DF-5D97-61AE-A083-8AD09B3AFA91</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

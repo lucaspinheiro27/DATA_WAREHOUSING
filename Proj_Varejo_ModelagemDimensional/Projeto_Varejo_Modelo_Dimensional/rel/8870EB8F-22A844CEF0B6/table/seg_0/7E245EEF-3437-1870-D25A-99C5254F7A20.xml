@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E245EEF-3437-1870-D25A-99C5254F7A20" name="DIM_VAR_PROMOCAO">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<generatorID>17399484-9032-8DA4-C959-392C1D4D8FB6</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_DIM_VAR_PROMOCAO" id="A55A7236-4FDD-1473-BD5D-AE6AA0F15967">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão de Promoção.  Este atributo será preenchido automaticamente pelo projeto de  ETL.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão de Promoção.  Este atributo será preenchido automaticamente pelo projeto de  ETL.]]></commentInRDBMS>
+<generatorID>ACE1B897-11E2-D2E2-2D8E-7FC230CA6794</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_PROMOCAO" id="A1902004-045C-CA85-A07C-77DF0BEFA6AA">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o código da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o código da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></commentInRDBMS>
+<generatorID>03F94BF1-2DBF-5186-F920-8BB15B8207E0</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_PROMOCAO" id="CB2036E5-D16C-96EF-D38B-DD449318AB0A">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a descrição da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber a descrição da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></commentInRDBMS>
+<generatorID>549C2DA1-5C92-85F2-3CA5-E663871CEAF2</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_ORIGEM_DADOS" id="92582E66-80B0-AF04-580E-66728C0E5847">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o nome da origem de dados.  Este atributo será fornecido na fase de ETL.  ]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o nome da origem de dados.  Este atributo será fornecido na fase de ETL.  ]]></commentInRDBMS>
+<generatorID>DA87FA8D-AADC-5D8E-2C3A-5C3DE12D25BE</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="20776DB6-FBF7-B3DA-53AF-8711791485F1">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a data de inicio  da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber a data de inicio  da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></commentInRDBMS>
+<generatorID>8561BC4A-5F23-4114-964D-AE6C40152BCD</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_TERMINO" id="910C6F01-FAF6-2539-9999-67ABED7E1C8B">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a data de término  da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber a data de término  da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></commentInRDBMS>
+<generatorID>CF64190F-0365-6DDB-7C63-D5AF0B9910D5</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DE0E73F-7852-F335-F388-BC798950B365" name="DIM_VAR_PROMOCAO_PK">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<generatorID>39C34A50-C0EE-A457-8F35-4765B6EE27BD</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A55A7236-4FDD-1473-BD5D-AE6AA0F15967"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

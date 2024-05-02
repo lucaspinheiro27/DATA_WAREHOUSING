@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIM_VAR_PROMOCAO_VENDA" directorySegmentName="seg_0" id="0B07065F-BB4A-DDB7-7C16-53BD1895BE72">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 14:19:33 UTC</createdTime>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<sourcePk>39C34A50-C0EE-A457-8F35-4765B6EE27BD</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>17399484-9032-8DA4-C959-392C1D4D8FB6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E7895012-441B-47AF-996E-F9090E48D8FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

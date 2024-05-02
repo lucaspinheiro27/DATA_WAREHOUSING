@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0F073C5D-9228-E8EE-5DAB-3D344D9E61A8" containerWithKeyObject="DE95BC68-8CB8-A315-8D92-801237281B62" localFKIndex="40D77C81-4FB0-9CB2-C10F-E2D35C6AD7B0" name="FTO_VAR_VENDAS_DIM_VAR_PROMOCAO_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<generatorID>0B07065F-BB4A-DDB7-7C16-53BD1895BE72</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<referredTableLongName>DIM_VAR_PROMOCAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7E245EEF-3437-1870-D25A-99C5254F7A20</referredTableID>
+<keyObject>0DE0E73F-7852-F335-F388-BC798950B365</keyObject>
+<referredKeyID>0DE0E73F-7852-F335-F388-BC798950B365</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_DIM_VAR_PROMOCAO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

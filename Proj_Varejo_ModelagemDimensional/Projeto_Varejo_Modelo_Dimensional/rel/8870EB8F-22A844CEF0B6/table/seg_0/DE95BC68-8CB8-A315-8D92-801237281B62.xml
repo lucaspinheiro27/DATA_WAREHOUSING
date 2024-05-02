@@ -1,0 +1,229 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE95BC68-8CB8-A315-8D92-801237281B62" name="FTO_VAR_VENDAS">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<generatorID>E7895012-441B-47AF-996E-F9090E48D8FA</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<typeID>1</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_DIM_VAR_PRODUTO" id="96B8C8F6-14E3-B782-0275-C9E108276F34">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão do Produto.  Este atributo será preenchido automaticamente pelo projeto de  ETL.]]></comment>
+<generatorID>47AD05A4-9040-142B-8177-F4F1A7C4DDB2</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFCBE149-A299-B28F-F86A-DE96D7085280" referredColumn="801D827D-7E97-F17C-80EC-752216E7414A"/>
+</associations>
+</Column>
+<Column name="SK_DIM_VAR_TEMPO" id="881A69EC-9DD4-A245-4071-580BFC07A960">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key para a dimensão  Tempo. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<generatorID>F5BF2ED8-2A81-C681-B2E0-194964D82185</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9090607-1AAF-86BA-3424-C440CC685643" referredColumn="5947F8E2-6A4F-F7E9-64F3-44278F332BC7"/>
+</associations>
+</Column>
+<Column name="SK_DIM_VAR_VENDEDOR" id="AB52DCB5-E907-2D34-040A-4420FF9BC7AA">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão do Vendedor.  Este atributo será preenchido automaticamente pelo projeto de  ETL.]]></comment>
+<generatorID>7B2F07BA-731C-26FC-E508-8160A9F0BB9A</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3A49E37-8435-D540-81C3-A49F90098E3E" referredColumn="07A57DBF-C220-FCD7-D604-F1C7FEFA0A5E"/>
+</associations>
+</Column>
+<Column name="SK_DIM_VAR_LOJA" id="934C43E3-BAAC-28E9-62FE-964088F838AA">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão da loja.  Este atributo será preenchido pela origem de dados.]]></comment>
+<generatorID>3CEB40DF-5D97-61AE-A083-8AD09B3AFA91</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="286645E9-909B-3908-293C-6B9A1B965F4C" referredColumn="03ABD142-E8FD-4E2E-7546-28A4F060AC35"/>
+</associations>
+</Column>
+<Column name="SK_DIM_VAR_PROMOCAO" id="7FC61A9A-F0B1-1DBD-867F-6B061B1B919B">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão de Promoção.  Este atributo será preenchido automaticamente pelo projeto de  ETL.]]></comment>
+<generatorID>779573B1-93BE-7133-D411-1E995884E5AD</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F073C5D-9228-E8EE-5DAB-3D344D9E61A8" referredColumn="A55A7236-4FDD-1473-BD5D-AE6AA0F15967"/>
+</associations>
+</Column>
+<Column name="VL_TOT_VENDA" id="BF3D49A5-A91A-C399-7C5E-31481D51E018">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o valor total  da venda feita no varejo. Esse dado será calculado a partir da origem de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o valor total  da venda feita no varejo. Esse dado será calculado a partir da origem de dados.]]></commentInRDBMS>
+<generatorID>B3422E4F-B419-44B0-4ADB-5309E64336EA</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_LUCRO_LIQUIDO" id="AFB5D66D-F73B-1D9D-7F68-66F34EE06846">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o valor total  do lucro liquido sobre a  venda feita no varejo. Esse dado será calculado a partir da origem de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o valor total  do lucro liquido sobre a  venda feita no varejo. Esse dado será calculado a partir da origem de dados.]]></commentInRDBMS>
+<generatorID>AA0446DF-0986-5F0E-AA47-60E82B4A89E8</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QT_VENDA" id="26AC323E-E58F-08E4-E47F-547FD1139416">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a quantidade da venda do produto. Esse dado será calculado a partir da origem de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a quantidade da venda do produto. Esse dado será calculado a partir da origem de dados.]]></commentInRDBMS>
+<generatorID>1B1D0889-721C-8E81-7691-DB22F49C3FB7</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QT_DEVOLUCAO" id="D96FB05B-053D-4447-43CB-53F8257C6890">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a quantidade de devolução da venda do produto. Esse dado será calculado a partir da origem de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a quantidade de devolução da venda do produto. Esse dado será calculado a partir da origem de dados.]]></commentInRDBMS>
+<generatorID>EFFC0B3F-CC92-0A09-A14C-38EF70E47D47</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="744C328F-7C52-191E-7D73-0D0CE4F7E722" name="FTO_VAR_VENDAS_PK">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<generatorID>A5EDD4F3-7544-C65F-BF7E-3D2847C753AD</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB52DCB5-E907-2D34-040A-4420FF9BC7AA"/>
+<colUsage columnID="881A69EC-9DD4-A245-4071-580BFC07A960"/>
+<colUsage columnID="96B8C8F6-14E3-B782-0275-C9E108276F34"/>
+<colUsage columnID="7FC61A9A-F0B1-1DBD-867F-6B061B1B919B"/>
+<colUsage columnID="934C43E3-BAAC-28E9-62FE-964088F838AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="452F795E-FFB3-CC0C-819A-D8D11D55F85B" name="FTO_VAR_VENDAS_DIM_VAR_LOJA_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<generatorID>42998D65-0EB2-3C46-CADB-979526B02052</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="934C43E3-BAAC-28E9-62FE-964088F838AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30C0E353-CC3B-8B6B-E684-8B104C397EFF" name="FTO_VAR_VENDAS_DIM_VAR_PRODUTO_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<generatorID>7562BA84-C785-F4BD-8153-384A36725C91</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96B8C8F6-14E3-B782-0275-C9E108276F34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40D77C81-4FB0-9CB2-C10F-E2D35C6AD7B0" name="FTO_VAR_VENDAS_DIM_VAR_PROMOCAO_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<generatorID>0B07065F-BB4A-DDB7-7C16-53BD1895BE72</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FC61A9A-F0B1-1DBD-867F-6B061B1B919B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F846661C-42CA-6ABD-1041-5AC34725D29F" name="FTO_VAR_VENDAS_DIM_VAR_TEMPO_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<generatorID>6A5905AC-1F1B-C361-2648-31B98233C7B9</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="881A69EC-9DD4-A245-4071-580BFC07A960"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF053186-FA1A-FA7D-4C7B-3945FD3A09B8" name="FTO_VAR_VENDAS_DIM_VAR_VENDEDOR_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<generatorID>D98FA6E4-F772-A17E-791D-CA785F5264EF</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB52DCB5-E907-2D34-040A-4420FF9BC7AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

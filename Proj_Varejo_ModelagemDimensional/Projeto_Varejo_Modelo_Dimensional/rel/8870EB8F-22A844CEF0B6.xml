@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" mainViewID="4E5D8671-1B4E-E171-BDEE-12C0A18D331D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:21:16 UTC</createdTime>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+</relationalModel>

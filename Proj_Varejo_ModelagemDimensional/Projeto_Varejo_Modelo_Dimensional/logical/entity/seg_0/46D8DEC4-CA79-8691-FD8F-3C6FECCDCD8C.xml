@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46D8DEC4-CA79-8691-FD8F-3C6FECCDCD8C" name="DIM_VAR_TEMPO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:35:05 UTC</createdTime>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_DIM_VAR_TEMPO" id="57DC5636-A96B-5109-AB59-775A31E10967">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:35:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key para a dimensão  Tempo. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber  a surrogate key para a dimensão  Tempo. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<importedID>C75FAF57-150F-5A58-7242-DB50F6ECE9D7</importedID>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_EVENTO" id="3D042116-09C0-18DC-5A01-EBA43CA392D2">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:35:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data em que ocorreu o evento, ou seja, em um determinado, dia, mês e ano. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data em que ocorreu o evento, ou seja, em um determinado, dia, mês e ano. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<importedID>14BFA7B9-808A-130D-5EB1-2009E58CEF3A</importedID>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_ANO" id="81C416E9-CF95-4F41-334E-2F697573ECAC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:35:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o ano em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o ano em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<importedID>070F7273-DE0F-067A-35F1-E27E1D37292F</importedID>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_MES" id="ECBBC2B7-3280-CED6-AC95-F7EC3F252589">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:35:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o mês em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o mês em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<importedID>06D28261-1385-D5C2-8E6F-D4185B03542D</importedID>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DIA" id="058E5365-F20D-E066-B307-37473E3E86FE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:35:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o dia em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o dia em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<importedID>87AB8E1A-6AB2-2830-D243-615751DE94B8</importedID>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_DIA_SEMANA" id="78337994-15C1-CBDB-09B3-AEBA2E6A6492">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 13:29:41 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o dia  da semana  em que ocorreu o evento. O conteúdo desse atributo será preenchido pelo processo de ETL.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o dia  da semana  em que ocorreu o evento. O conteúdo desse atributo será preenchido pelo processo de ETL.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="92A75490-3A1C-4394-2385-F9F6DB4CD537" name="SK_DIM_VAR_TEMPO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:35:05 UTC</createdTime>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>57DC5636-A96B-5109-AB59-775A31E10967</newElementsIDs>
+<usedAttributes>
+<attributeRef>57DC5636-A96B-5109-AB59-775A31E10967</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

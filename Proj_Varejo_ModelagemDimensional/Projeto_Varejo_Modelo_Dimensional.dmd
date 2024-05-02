@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projeto_Varejo_Modelo_Dimensional" id="486C3082-186B-8A04-0FBE-740A39CCBDD3" version="3.5">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:21:12 UTC</createdTime>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>486C3082-186B-8A04-0FBE-740A39CCBDD3</designId>
+</OSDM_Design>

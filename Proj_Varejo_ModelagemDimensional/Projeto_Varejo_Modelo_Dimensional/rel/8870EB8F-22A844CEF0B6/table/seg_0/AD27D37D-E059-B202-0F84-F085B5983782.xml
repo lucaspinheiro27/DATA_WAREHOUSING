@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD27D37D-E059-B202-0F84-F085B5983782" name="DIM_VAR_LOJA">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<generatorID>08C59871-39B0-D72A-0DE6-3FD1E23F8C9E</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_DIM_VAR_LOJA" id="03ABD142-E8FD-4E2E-7546-28A4F060AC35">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão da loja.  Este atributo será preenchido pela origem de dados.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão da loja.  Este atributo será preenchido pela origem de dados.]]></commentInRDBMS>
+<generatorID>FB5E2923-135B-A1ED-86E0-838363A91A33</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_LOJA_ORIGEM" id="FEC8BEC3-5374-D593-144B-18C69181D528">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o códido da loja  na origem de dados.  Este atributo será oriundo da origem de dados do vendedor, ou seja, do PDV (Ponto de Venda).]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o códido da loja  na origem de dados.  Este atributo será oriundo da origem de dados do vendedor, ou seja, do PDV (Ponto de Venda).]]></commentInRDBMS>
+<generatorID>0DEBC7AE-2B7C-FE77-1B15-2878999D3034</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_LOJA" id="150DF59B-FB46-AA0A-D216-A810A4F7A3A6">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o Nome da Loja  na origem de dados.  Este atributo será oriundo da origem de dados do vendedor, ou seja, do PDV (Ponto de Venda).]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o Nome da Loja  na origem de dados.  Este atributo será oriundo da origem de dados do vendedor, ou seja, do PDV (Ponto de Venda).]]></commentInRDBMS>
+<generatorID>BE46F8B6-DE88-D673-1442-94997A7B76FF</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_ORIGEM_DADOS" id="19A09DE6-BC07-1399-A467-3332203AB652">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o nome da origem de dados.  Este atributo será fornecido na fase de ETL.  ]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o nome da origem de dados.  Este atributo será fornecido na fase de ETL.  ]]></commentInRDBMS>
+<generatorID>E58A1151-EA74-826B-ABD0-4E3E5BFCE6AE</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6481C24C-2958-BC39-1B6E-FDFE99CD5F0A" name="DIM_VAR_LOJA_PK">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<generatorID>3DF02F83-5727-F8BE-03E0-722484EB9C13</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03ABD142-E8FD-4E2E-7546-28A4F060AC35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

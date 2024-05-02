@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17399484-9032-8DA4-C959-392C1D4D8FB6" name="DIM_VAR_PROMOCAO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 14:15:33 UTC</createdTime>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_DIM_VAR_PROMOCAO" id="ACE1B897-11E2-D2E2-2D8E-7FC230CA6794">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 14:15:33 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão de Promoção.  Este atributo será preenchido automaticamente pelo projeto de  ETL.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber a surrogate key (SK) da dimensão de Promoção.  Este atributo será preenchido automaticamente pelo projeto de  ETL.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_PROMOCAO" id="03F94BF1-2DBF-5186-F920-8BB15B8207E0">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 14:17:20 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o código da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o código da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PROMOCAO" id="549C2DA1-5C92-85F2-3CA5-E663871CEAF2">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 14:15:33 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a descrição da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber a descrição da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ORIGEM_DADOS" id="DA87FA8D-AADC-5D8E-2C3A-5C3DE12D25BE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 14:15:33 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o nome da origem de dados.  Este atributo será fornecido na fase de ETL.  ]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o nome da origem de dados.  Este atributo será fornecido na fase de ETL.  ]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="8561BC4A-5F23-4114-964D-AE6C40152BCD">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 14:17:57 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a data de inicio  da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber a data de inicio  da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TERMINO" id="CF64190F-0365-6DDB-7C63-D5AF0B9910D5">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 14:18:20 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a data de término  da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber a data de término  da Promoção.  Este atributo será oriundo da origem de dados no ambiente operacional.]]></commentInRDBMS>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="39C34A50-C0EE-A457-8F35-4765B6EE27BD" name="SK_DIM_VAR_PROMOCAO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 14:15:33 UTC</createdTime>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<engineerTo>
+<item key="8870EB8F-284A-D4BD-C4C3-22A844CEF0B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>ACE1B897-11E2-D2E2-2D8E-7FC230CA6794</newElementsIDs>
+<usedAttributes>
+<attributeRef>ACE1B897-11E2-D2E2-2D8E-7FC230CA6794</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

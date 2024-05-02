@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EFCBE149-A299-B28F-F86A-DE96D7085280" containerWithKeyObject="DE95BC68-8CB8-A315-8D92-801237281B62" localFKIndex="30C0E353-CC3B-8B6B-E684-8B104C397EFF" name="FTO_VAR_VENDAS_DIM_VAR_PRODUTO_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<generatorID>7562BA84-C785-F4BD-8153-384A36725C91</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<referredTableLongName>DIM_VAR_PRODUTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8949CBBD-42C1-FBC1-B2F3-3990A04D31B6</referredTableID>
+<keyObject>AE08BD5D-3EF8-8B18-CBB6-212623DC4035</keyObject>
+<referredKeyID>AE08BD5D-3EF8-8B18-CBB6-212623DC4035</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_DIM_VAR_PRODUTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

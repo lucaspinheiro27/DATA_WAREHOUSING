@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="653D14C0-A2CA-BCDD-579E-1A0782B6AAE7" mainViewID="4E382EAB-63B6-F889-BAC9-B78B587668DE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-09 12:21:12 UTC</createdTime>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

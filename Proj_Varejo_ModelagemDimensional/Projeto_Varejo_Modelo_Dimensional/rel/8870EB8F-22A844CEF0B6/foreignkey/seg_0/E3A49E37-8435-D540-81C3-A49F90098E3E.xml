@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E3A49E37-8435-D540-81C3-A49F90098E3E" containerWithKeyObject="DE95BC68-8CB8-A315-8D92-801237281B62" localFKIndex="AF053186-FA1A-FA7D-4C7B-3945FD3A09B8" name="FTO_VAR_VENDAS_DIM_VAR_VENDEDOR_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:35:52 UTC</createdTime>
+<generatorID>D98FA6E4-F772-A17E-791D-CA785F5264EF</generatorID>
+<ownerDesignName>Projeto_Varejo_Modelo_Dimensional</ownerDesignName>
+<referredTableLongName>DIM_VAR_VENDEDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>26821EB2-BB7E-052D-F2BB-629A816CB288</referredTableID>
+<keyObject>D1AF7D88-31F2-32E7-D600-D5D26C3F0B9A</keyObject>
+<referredKeyID>D1AF7D88-31F2-32E7-D600-D5D26C3F0B9A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_DIM_VAR_VENDEDOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
