@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_LOC_TEMPO_LOCACAO" directorySegmentName="seg_0" id="07FC36FB-C076-062C-AE35-F98C7019EC24">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 14:04:15 UTC</createdTime>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<sourcePk>EA85C377-4BB9-B715-D0BD-265CC55E55F1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D6E69A0-4E93-63A5-D748-669A2379D531</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D79A4BE2-8206-438C-3FC8-04F9EDD647D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

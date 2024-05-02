@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_Dimensional_CARLOCA" id="6EA37081-0BC6-EFF3-8AD5-2CAC03E82913" version="3.5">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 11:39:11 UTC</createdTime>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6EA37081-0BC6-EFF3-8AD5-2CAC03E82913</designId>
+</OSDM_Design>

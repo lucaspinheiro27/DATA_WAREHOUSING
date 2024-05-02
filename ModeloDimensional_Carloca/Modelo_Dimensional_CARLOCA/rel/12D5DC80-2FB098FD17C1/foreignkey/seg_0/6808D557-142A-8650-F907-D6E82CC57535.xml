@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6808D557-142A-8650-F907-D6E82CC57535" containerWithKeyObject="C070F995-0DA0-28E1-1366-4C1DF9B0B415" localFKIndex="8E4A8B96-F84D-0C34-F081-DA00139A5F5E" name="FK_LOC_FXA_ETARIA_LOCACAO">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:42:43 UTC</createdTime>
+<generatorID>408C2C6A-72DE-7431-A447-D3404308B874</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<referredTableLongName>DIM_LOC_FAIXA_ETARIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>79831F73-4E3C-BB6B-D13D-FA225553BA6D</referredTableID>
+<keyObject>743E3579-C738-BBC7-25FD-0A2AEAF27B2C</keyObject>
+<referredKeyID>743E3579-C738-BBC7-25FD-0A2AEAF27B2C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_FAIXA_ETARIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7D81A4B-E63F-069A-D102-49A17E6799F9" name="DIM_TEMPO">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:42:43 UTC</createdTime>
+<generatorID>1D6E69A0-4E93-63A5-D748-669A2379D531</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_LOC_TEMPO" id="578C6280-9DAB-3D16-3378-D22693EF9D14">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:42:43 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key para a dimensão  Tempo. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber  a surrogate key para a dimensão  Tempo. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<generatorID>C75FAF57-150F-5A58-7242-DB50F6ECE9D7</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_EVENTO" id="0794522F-513F-5E21-E88C-DF7E7F6FADDD">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:42:43 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data em que ocorreu o evento, ou seja, em um determinado, dia, mês e ano. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data em que ocorreu o evento, ou seja, em um determinado, dia, mês e ano. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<generatorID>14BFA7B9-808A-130D-5EB1-2009E58CEF3A</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_ANO" id="8455353D-4414-A78E-7879-AF5FE997B890">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:42:43 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o ano em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o ano em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<generatorID>070F7273-DE0F-067A-35F1-E27E1D37292F</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_MES" id="545920CA-09C7-F23B-EDB8-859EF12E58C0">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:42:43 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o mês em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o mês em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></commentInRDBMS>
+<generatorID>06D28261-1385-D5C2-8E6F-D4185B03542D</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_DIA" id="9EC95E65-7B34-B3BB-748C-C092F34A1483">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:42:43 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o dia em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o dia em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></commentInRDBMS>
+<generatorID>87AB8E1A-6AB2-2830-D243-615751DE94B8</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F20E3326-E64D-EA3F-0B0A-3F9CE32099A9" name="SK_DIM_TEMPO">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:42:43 UTC</createdTime>
+<generatorID>EA85C377-4BB9-B715-D0BD-265CC55E55F1</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="578C6280-9DAB-3D16-3378-D22693EF9D14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

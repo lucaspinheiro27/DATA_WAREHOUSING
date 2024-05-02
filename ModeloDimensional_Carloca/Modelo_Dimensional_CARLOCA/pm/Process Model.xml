@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="D2F34589-E4B3-C75A-8E16-26A47958D3C1">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 11:39:12 UTC</createdTime>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

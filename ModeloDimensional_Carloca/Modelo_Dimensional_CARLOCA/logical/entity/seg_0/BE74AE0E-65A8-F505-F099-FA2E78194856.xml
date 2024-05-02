@@ -1,0 +1,260 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE74AE0E-65A8-F505-F099-FA2E78194856" name="DIM_LOC_CLIENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 11:41:42 UTC</createdTime>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_CLIENTE" id="EE238262-C55B-46AB-6622-6B3928C0FE79">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 11:47:49 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key do cliente. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber  a surrogate key do cliente. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CLIENTE" id="8B16158D-C518-C123-32AB-E9AF5E940968">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 11:49:52 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  o nome do cliente. O conteúdo desse atributo será obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber  o nome do cliente. O conteúdo desse atributo será obrigatório.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NASCIMENTO" id="17F206F8-73B0-E931-F1A2-C7C5A94B9830">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 11:51:41 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de nascimento cliente. O conteúdo desse atributo será obrigatório e será carregado das origens  de dados definidas no projeto.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de nascimento cliente. O conteúdo desse atributo será obrigatório e será carregado das origens  de dados definidas no projeto.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DIA_NASCIMENTO" id="422AF0FA-2222-ED80-7B73-A491259C8237">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 11:57:30 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o dia de nascimento cliente. O conteúdo desse atributo será obrigatório e será carregado das origens  de dados definidas no projeto.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o dia de nascimento cliente. O conteúdo desse atributo será obrigatório e será carregado das origens  de dados definidas no projeto.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_MES_NASCIMENTO" id="FE33C5D6-25C5-FB1A-D141-F918DE5A1AAC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 11:58:25 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o mês de nascimento cliente. O conteúdo desse atributo será obrigatóroi e será carregado das origens  de dados definidas no projeto.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o mês de nascimento cliente. O conteúdo desse atributo será obrigatório e será carregado das origens  de dados definidas no projeto.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_ANO_NASCIMENTO" id="69D19C18-8A8A-0E92-8E80-10EE8132173A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 11:59:13 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o ano de nascimento cliente. O conteúdo desse atributo será obrigatório e será carregado das origens  de dados definidas no projeto.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o ano de nascimento cliente. O conteúdo desse atributo será obrigatório e será carregado das origens  de dados definidas no projeto.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_SEXO_DEFINIDO" id="F8972C60-EA38-A3F8-DB40-AAF986E083A8">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 12:13:24 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do sexo biológico do cliente. O conteúdo desse atributo será obrigatório e será carregado das origens  de dados definidas no projeto.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do sexo biológico do cliente. O conteúdo desse atributo será obrigatório e será carregado das origens  de dados definidas no projeto.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CPF" id="B8D7BB67-9744-EF92-F1F9-2DAE0A97CBBD">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 12:28:23 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do  CPF do cliente. O conteúdo desse atributo será opcional e será carregado das origens  de dados definidas no projeto.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do  CPF do cliente. O conteúdo desse atributo será opcional e será carregado das origens  de dados definidas no projeto.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CPF_COM_MASCARA" id="3BF5A7C1-0ED8-E758-7E3F-A0D4BF9B5ADB">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 12:34:57 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do  CPF do cliente com a máscara. O conteúdo desse atributo será opcional e será carregado das origens  de dados definidas no projeto.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do  CPF do cliente com a máscara. O conteúdo desse atributo será opcional e será carregado das origens  de dados definidas no projeto.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ESTADO" id="6F2CA61F-FF95-793B-37FD-A0004CFA6E0C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 13:16:46 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do  Estado onde o cliente se localiza. Esse atributo é obrigatório e será populado de acordo com as origens de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do  Estado onde o cliente se localiza. Esse atributo é obrigatório e será populado de acordo com as origens de dados.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SG_ESTADO" id="7C74A61F-2342-F824-5F45-48783F66C87A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 13:18:10 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a sigla do  Estado onde o cliente se localiza. Esse atributo é obrigatório e será populado de acordo com as origens de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a sigla do  Estado onde o cliente se localiza. Esse atributo é obrigatório e será populado de acordo com as origens de dados.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="969D44B5-AF4C-F722-89AF-27A42053155E">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 13:18:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome da Cidade onde o cliente se localiza. Esse atributo é obrigatório e será populado de acordo com as origens de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome da Cidade onde o cliente se localiza. Esse atributo é obrigatório e será populado de acordo com as origens de dados.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BAIRRO" id="CA097D59-482A-0D5B-18CF-D6593FB892CB">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 13:19:17 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do Bairro onde o cliente se localiza. Esse atributo é obrigatório e será populado de acordo com as origens de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do Bairro onde o cliente se localiza. Esse atributo é obrigatório e será populado de acordo com as origens de dados.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_CLIENTE_ORIGEM_DADOS" id="C52D308F-CE27-0B0C-5B98-29CFA01CB29A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 12:36:32 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o código do cliente na origem de dados. O conteúdo desse atributo será obrigatório e será carregado das origens  de dados definidas no projeto.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o código do cliente na origem de dados. O conteúdo desse atributo será obrigatório e será carregado das origens  de dados definidas no projeto.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ORIGEM_DADOS" id="735F4840-DB61-5B1A-5DBD-9282DEAC5427">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 12:37:47 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome da origem de dados  do cliente (de onde foi enviada essa informação).. O conteúdo desse atributo será obrigatório e será carregado das origens  de dados definidas no projeto.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome da origem de dados  do cliente (de onde foi enviada essa informação).. O conteúdo desse atributo será obrigatório e será carregado das origens  de dados definidas no projeto.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A3ECF4D-8B16-F828-9F65-ED7FE392A6FF" name="SK_DIM_LOC_CLIENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 11:48:33 UTC</createdTime>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>EE238262-C55B-46AB-6622-6B3928C0FE79</newElementsIDs>
+<usedAttributes>
+<attributeRef>EE238262-C55B-46AB-6622-6B3928C0FE79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

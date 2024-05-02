@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A5FF59EF-95B6-4B58-A70D-FE52CA8F85E7" mainViewID="AE22D48B-C2F5-1D3F-F92F-09101CE837BA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 11:39:11 UTC</createdTime>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

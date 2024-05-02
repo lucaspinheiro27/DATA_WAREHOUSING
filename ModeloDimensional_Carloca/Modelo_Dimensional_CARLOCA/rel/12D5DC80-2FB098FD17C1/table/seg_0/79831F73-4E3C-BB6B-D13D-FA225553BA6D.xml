@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79831F73-4E3C-BB6B-D13D-FA225553BA6D" name="DIM_LOC_FAIXA_ETARIA">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:42:43 UTC</createdTime>
+<generatorID>9CE02DC3-35EA-C599-D99E-07F20AD5F723</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_FAIXA_ETARIA" id="C1384D36-0D3D-422A-04DB-867FADE039B7">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:42:43 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key da Faixa Etária. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber  a surrogate key da Faixa Etária. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<generatorID>F2019299-C940-7AED-A816-8AF041515451</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_FAIXA_ETARIA" id="93B93F09-11CE-5CFA-F82E-C7C6450E338C">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:42:43 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  o nome da Faixa Etária. O conteúdo desse atributo será obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber  o nome da Faixa Etária. O conteúdo desse atributo será obrigatório]]></commentInRDBMS>
+<generatorID>03725C38-064F-718F-0132-47D4CDE0500A</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_IDADE_INICIAL" id="20DB66D6-2EAC-6E6C-757C-1D6F90BD0487">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:42:43 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a idade inicial da faixa etária. O conteúdo desse atributo será obrigatório]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber  a idade inicial da faixa etária. O conteúdo desse atributo será obrigatório]]></commentInRDBMS>
+<generatorID>B6EA68A1-983A-DFD0-9E44-98883EE63B76</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_IDADE_FINAL" id="259AAC6B-B5AC-8B89-9921-9B765ECBE261">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:42:43 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a idade inicial da faixa etária. O conteúdo desse atributo será obrigatório]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber  a idade inicial da faixa etária. O conteúdo desse atributo será obrigatório]]></commentInRDBMS>
+<generatorID>8C5F2F6C-57E3-FC18-EA42-F618AEDC2E61</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="743E3579-C738-BBC7-25FD-0A2AEAF27B2C" name="SK_DIM_LOC_FAIXA_ETARIA">
+<createdBy>lucas</createdBy>
+<createdTime>2024-04-21 14:42:43 UTC</createdTime>
+<generatorID>FB8AC2AF-3342-46DD-DCD8-452FE2E211D2</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1384D36-0D3D-422A-04DB-867FADE039B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

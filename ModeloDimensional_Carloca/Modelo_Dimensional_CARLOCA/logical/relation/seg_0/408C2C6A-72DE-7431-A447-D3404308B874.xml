@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_LOC_FXA_ETARIA_LOCACAO" directorySegmentName="seg_0" id="408C2C6A-72DE-7431-A447-D3404308B874">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 14:03:42 UTC</createdTime>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<sourcePk>FB8AC2AF-3342-46DD-DCD8-452FE2E211D2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9CE02DC3-35EA-C599-D99E-07F20AD5F723</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D79A4BE2-8206-438C-3FC8-04F9EDD647D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

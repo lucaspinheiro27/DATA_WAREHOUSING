@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D79A4BE2-8206-438C-3FC8-04F9EDD647D4" name="FTO_LOC_LOCACAO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 14:02:18 UTC</createdTime>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<typeID>1</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_CLIENTE" id="B889A332-3124-FCC6-8847-CB024C1E5ABD">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 14:03:09 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key do cliente. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<generatorID>4D997401-58B5-1D50-142F-49AD0537AC07</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<referedAttribute>EE238262-C55B-46AB-6622-6B3928C0FE79</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_FAIXA_ETARIA" id="DD8394F8-EC2F-7D1B-8BCC-BE34A36DF795">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 14:03:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key da Faixa Etária. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<generatorID>408C2C6A-72DE-7431-A447-D3404308B874</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<referedAttribute>F2019299-C940-7AED-A816-8AF041515451</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_LOC_TEMPO" id="24A641B2-6A0B-19F9-DC5A-167F86B83D63">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 14:04:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key para a dimensão  Tempo. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<generatorID>07FC36FB-C076-062C-AE35-F98C7019EC24</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<referedAttribute>C75FAF57-150F-5A58-7242-DB50F6ECE9D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_VEICULO" id="AD951D8F-B65E-F08D-8750-CCD98A1645B9">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 14:17:35 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key do Veículo. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<generatorID>074624B2-D61E-3A10-761F-D3CAE03BF57F</generatorID>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<referedAttribute>408E0184-7E09-F09A-F51A-D0D859709EE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_UNITARIO_LOCACAO" id="4B989286-AA9B-8FCA-7CF5-E201DC477B51">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 14:09:51 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o valor unitario da locação do veículo. Esse dado será calculado a partir da origem de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o valor unitario da locação do veículo. Esse dado será calculado a partir da origem de dados.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QT_DIARIAS_LOCACAO" id="99F61C1D-6FDB-4218-1B9C-B63E0178DC20">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 14:10:59 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a quantidade de diárias da locação do veículo. Esse dado será calculado a partir da origem de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a quantidade de diárias da locação do veículo. Esse dado será calculado a partir da origem de dados.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_TOTAL_LOCACAO" id="46BFF1D1-7892-4E13-7350-DD7739F65EC5">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 14:11:55 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o valor total da locação do veículo. Esse dado será calculado a partir da origem de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o valor total da locação do veículo. Esse dado será calculado a partir da origem de dados.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_IMPOSTO_PAGO" id="99925EF3-E5DF-13AD-4FB2-ACD54FC038D6">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 14:12:29 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o valor total do imposto pago ao Estado. Esse dado será calculado a partir da origem de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o valor total do imposto pago ao Estado. Esse dado será calculado a partir da origem de dados.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_TOT_DESCONTO" id="37FE6DF5-EDCB-61B0-2A5D-E3905B7FE474">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 14:19:28 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o valor total do desconto dado ao cliente. Esse dado será calculado a partir da origem de dados.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o valor total do desconto dado ao cliente. Esse dado será calculado a partir da origem de dados.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3BDD1264-A29D-7368-81AC-130D31F16E78" name="FTO_LOC_LOCACAO PK">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 14:03:09 UTC</createdTime>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B889A332-3124-FCC6-8847-CB024C1E5ABD</attributeRef>
+<attributeRef>DD8394F8-EC2F-7D1B-8BCC-BE34A36DF795</attributeRef>
+<attributeRef>24A641B2-6A0B-19F9-DC5A-167F86B83D63</attributeRef>
+<attributeRef>AD951D8F-B65E-F08D-8750-CCD98A1645B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

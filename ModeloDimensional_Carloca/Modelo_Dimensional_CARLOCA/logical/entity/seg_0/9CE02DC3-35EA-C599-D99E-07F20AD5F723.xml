@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9CE02DC3-35EA-C599-D99E-07F20AD5F723" name="DIM_LOC_FAIXA_ETARIA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 13:28:58 UTC</createdTime>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_FAIXA_ETARIA" id="F2019299-C940-7AED-A816-8AF041515451">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 13:29:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key da Faixa Etária. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber  a surrogate key da Faixa Etária. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_FAIXA_ETARIA" id="03725C38-064F-718F-0132-47D4CDE0500A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 13:30:40 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  o nome da Faixa Etária. O conteúdo desse atributo será obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber  o nome da Faixa Etária. O conteúdo desse atributo será obrigatório]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_IDADE_INICIAL" id="B6EA68A1-983A-DFD0-9E44-98883EE63B76">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 13:31:59 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a idade inicial da faixa etária. O conteúdo desse atributo será obrigatório]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber  a idade inicial da faixa etária. O conteúdo desse atributo será obrigatório]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_IDADE_FINAL" id="8C5F2F6C-57E3-FC18-EA42-F618AEDC2E61">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 13:32:39 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a idade inicial da faixa etária. O conteúdo desse atributo será obrigatório]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber  a idade inicial da faixa etária. O conteúdo desse atributo será obrigatório]]></commentInRDBMS>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FB8AC2AF-3342-46DD-DCD8-452FE2E211D2" name="SK_DIM_LOC_FAIXA_ETARIA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-04-02 13:30:02 UTC</createdTime>
+<ownerDesignName>Modelo_Dimensional_CARLOCA</ownerDesignName>
+<engineerTo>
+<item key="12D5DC80-EEA3-22C1-34B5-2FB098FD17C1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>F2019299-C940-7AED-A816-8AF041515451</newElementsIDs>
+<usedAttributes>
+<attributeRef>F2019299-C940-7AED-A816-8AF041515451</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
