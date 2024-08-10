@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEEEB0FE-8E56-25CF-F0C2-72D2899AB13F" name="DIM_CLIENTE_LOGR">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:32:54 UTC</createdTime>
+<generatorID>22DEC4DB-AB5F-11CD-EC47-CCC168D259F8</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<ordsAlias>dim_promocaov1</ordsAlias>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_cliente_logr" id="3BAFC8B4-9D25-34DE-9C54-003D239FBD5E">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:32:54 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Estado do País. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão Estado do País. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>C402BCBA-A953-B8FA-5CFD-74976166DD12</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="sk_cliente" id="C5F8EC6E-A164-7844-9833-80A4626C34C8">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:34:22 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4D2B104-A776-1A5A-2DFA-1774D658376F" referredColumn="B2F53879-97FE-C688-68C5-045DE0B6591A"/>
+</associations>
+</Column>
+<Column name="sk_logradouro" id="4457B2A6-72EA-5D9F-DA78-B5887258BB6B">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:34:36 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C749B942-B83B-1890-3139-4989A9288863" referredColumn="4BA87AB6-574C-A31A-EB6B-20A901809B4F"/>
+</associations>
+</Column>
+<Column name="dt_inicio" id="6974EFE5-A870-ED12-40BD-2FE73854A51D">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:32:54 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o nome do Estado. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o nome do Estado. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></commentInRDBMS>
+<generatorID>0908A6E5-FCCD-0743-A057-F79CB0748F7F</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="dt_fim" id="BFA2B3D8-3DD0-73D1-D34D-31CC487249D0">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:32:54 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BEDB99A-0CC4-2B82-4CA5-DFB6F3E300F6" name="SK_DIM_CLIENTE_LOGR">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:32:54 UTC</createdTime>
+<generatorID>D75A8AEB-9E7E-19AA-C1B0-25FC69F6413A</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="3BAFC8B4-9D25-34DE-9C54-003D239FBD5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A179567B-FD62-BF88-5EA3-243D1D99A2E7" name="FK_CLIENTE_LOGR">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:34:22 UTC</createdTime>
+<generatorID>D75A8AEB-9E7E-19AA-C1B0-25FC69F6413A</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5F8EC6E-A164-7844-9833-80A4626C34C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B835CB5E-7E40-5B59-C404-0F1E9DFD114A" name="FK_LOGR_CLIENTE">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:34:36 UTC</createdTime>
+<generatorID>D75A8AEB-9E7E-19AA-C1B0-25FC69F6413A</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4457B2A6-72EA-5D9F-DA78-B5887258BB6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

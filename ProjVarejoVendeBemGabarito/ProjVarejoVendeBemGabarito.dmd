@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ProjVarejoVendeBemGabarito" id="8600400E-1547-1912-0974-3E2CA060FB87" version="3.5">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 22:13:02 UTC</createdTime>
+<ownerDesignName>Varejo_Vendas_Estoque</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8600400E-1547-1912-0974-3E2CA060FB87</designId>
+</OSDM_Design>

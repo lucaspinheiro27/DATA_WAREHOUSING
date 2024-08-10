@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E62766E-53E2-975B-6795-3183D8D046CC" name="DIM_ESTADO">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:22:24 UTC</createdTime>
+<generatorID>22DEC4DB-AB5F-11CD-EC47-CCC168D259F8</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<ordsAlias>dim_promocaov1</ordsAlias>
+<typeID>2</typeID>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_estado" id="C8311856-D5FA-DF1C-88C4-AE2F81A71097">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:22:24 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Estado do País. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão Estado do País. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>C402BCBA-A953-B8FA-5CFD-74976166DD12</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="nm_estado" id="BC367864-FEAD-C840-6B6B-7341E6DB4585">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:22:24 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o nome do Estado. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o nome do Estado. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></commentInRDBMS>
+<generatorID>0908A6E5-FCCD-0743-A057-F79CB0748F7F</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="sg_estado" id="B442B769-595C-5657-591E-31266F5D585A">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:22:24 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o codigo do IBGE. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o codigo do IBGE. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></commentInRDBMS>
+<generatorID>B935970C-478B-0BC7-C228-9247AC2A45AC</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02695EC7-13B0-9A6E-9465-A4D169915BCB" name="SK_DIM_ESTADO">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:22:24 UTC</createdTime>
+<generatorID>D75A8AEB-9E7E-19AA-C1B0-25FC69F6413A</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C8311856-D5FA-DF1C-88C4-AE2F81A71097"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

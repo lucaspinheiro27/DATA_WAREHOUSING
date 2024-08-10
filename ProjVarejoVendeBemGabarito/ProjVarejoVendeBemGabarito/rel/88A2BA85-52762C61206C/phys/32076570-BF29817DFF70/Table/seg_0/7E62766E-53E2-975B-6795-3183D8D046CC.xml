@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DIM_ESTADO" directorySegmentName="seg_0" id="7E62766E-53E2-975B-6795-3183D8D046CC">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:22:24 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="sg_estado" id="B442B769-595C-5657-591E-31266F5D585A">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:22:24 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nm_estado" id="BC367864-FEAD-C840-6B6B-7341E6DB4585">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:22:24 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sk_estado" id="C8311856-D5FA-DF1C-88C4-AE2F81A71097">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:22:24 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SK_DIM_ESTADO" id="02695EC7-13B0-9A6E-9465-A4D169915BCB">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:22:24 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

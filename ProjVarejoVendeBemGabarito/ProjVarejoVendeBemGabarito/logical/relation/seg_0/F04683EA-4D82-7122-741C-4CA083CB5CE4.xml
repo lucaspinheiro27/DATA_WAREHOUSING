@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_LOJA_VDA" directorySegmentName="seg_0" id="F04683EA-4D82-7122-741C-4CA083CB5CE4">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-04-04 12:15:59 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<sourcePk>5ED06D32-0B90-6187-28C3-FF6315EE4D0E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ED25508C-AA18-C3BF-68F1-425E500DB12F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E381FBAE-D030-B42D-E630-B3E43E593C4C</targetEntity>
+<transferable>true</transferable>
+</Relation>

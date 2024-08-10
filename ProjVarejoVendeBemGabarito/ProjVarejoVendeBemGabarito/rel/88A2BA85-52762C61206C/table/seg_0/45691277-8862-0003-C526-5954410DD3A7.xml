@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45691277-8862-0003-C526-5954410DD3A7" name="DIM_PROMOCAO">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<generatorID>22DEC4DB-AB5F-11CD-EC47-CCC168D259F8</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<typeID>2</typeID>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_promocao" id="8962B588-1D2E-3F67-CC00-27CF470504CB">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Promoção. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão Promoção. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>C402BCBA-A953-B8FA-5CFD-74976166DD12</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="cd_promocao" id="1D6CF8B3-6055-81B9-62B7-93BE0D241FE5">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é código da promocao da Dimensão promocao.. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é código da promocao da Dimensão promocao.. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>0908A6E5-FCCD-0743-A057-F79CB0748F7F</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="nm_promocao" id="65360210-E8B4-6E5C-4B0C-7497D8B1C28B">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é nome  da promocao da Dimensão promocao.. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é nome  da promocao da Dimensão promocao.. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>B935970C-478B-0BC7-C228-9247AC2A45AC</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="dt_inicio" id="5CD72617-D432-B608-2395-D10FD59EFC36">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é a data de inicio  da promocao da Dimensão promocao.. Seu conteúdo deve ser obrigatório e do tipo data.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a data de inicio  da promocao da Dimensão promocao.. Seu conteúdo deve ser obrigatório e do tipo data.]]></commentInRDBMS>
+<generatorID>F4DA15E0-2BC5-00AE-3FE7-9628446A236F</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="dt_termino" id="A5B0C24B-F7E8-E530-6AB0-B85B864BF667">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é a data de inicio  da promocao da Dimensão promocao.. Seu conteúdo deve ser obrigatório e do tipo data.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a data de inicio  da promocao da Dimensão promocao.. Seu conteúdo deve ser obrigatório e do tipo data.]]></commentInRDBMS>
+<generatorID>A95594B1-7D31-DD70-916C-53AE7A1A2220</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA8BF564-0060-78E7-2BC8-CB6FB44BAA86" name="SK_DIM_PROMOCAO">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<generatorID>D75A8AEB-9E7E-19AA-C1B0-25FC69F6413A</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8962B588-1D2E-3F67-CC00-27CF470504CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

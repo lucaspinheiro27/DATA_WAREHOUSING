@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D795A900-2B89-BC82-2430-CCF2089DF413" name="DIM_CIDADE">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:17:19 UTC</createdTime>
+<generatorID>22DEC4DB-AB5F-11CD-EC47-CCC168D259F8</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<ordsAlias>dim_promocaov1</ordsAlias>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_cidade" id="ED13E8B6-5691-3700-D25E-EEE6E0501A72">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:17:19 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Estado do País. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão Estado do País. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>C402BCBA-A953-B8FA-5CFD-74976166DD12</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="sk_estado" id="B13E2B8F-7106-DF59-BC56-5D09971D7F88">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:23:29 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9049FDB-ED10-15D2-EBF0-F8579824C462" referredColumn="C8311856-D5FA-DF1C-88C4-AE2F81A71097"/>
+</associations>
+</Column>
+<Column name="nm_cidade" id="3261EEEC-17CF-78E3-9E07-ECBBA9A09FE2">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:17:19 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o nome do Estado. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o nome do Estado. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></commentInRDBMS>
+<generatorID>0908A6E5-FCCD-0743-A057-F79CB0748F7F</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="nr_codigo_ibge" id="8F1BB770-E812-34EB-AEA0-71EA5E55CB2A">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:17:19 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o codigo do IBGE. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o codigo do IBGE. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></commentInRDBMS>
+<generatorID>B935970C-478B-0BC7-C228-9247AC2A45AC</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="755A32EA-0068-87C9-615A-D884E6C58376" name="SK_DIM_CIDADE">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:17:19 UTC</createdTime>
+<generatorID>D75A8AEB-9E7E-19AA-C1B0-25FC69F6413A</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="ED13E8B6-5691-3700-D25E-EEE6E0501A72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E87DBF18-D154-B1E3-CB90-806EA9CB565A" name="FK_DIM_ESTADO_CIDADE">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:23:29 UTC</createdTime>
+<generatorID>D75A8AEB-9E7E-19AA-C1B0-25FC69F6413A</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B13E2B8F-7106-DF59-BC56-5D09971D7F88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="7F7B3101-D58C-2C40-1874-922A05DA407F" mainViewID="8D7B0C55-7EB0-E36F-B7D3-56A1D72FAFA7">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 22:13:02 UTC</createdTime>
+<ownerDesignName>Varejo_Vendas_Estoque</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<defaultArrayLimit>0</defaultArrayLimit>
+<useRoleInAssociationEndAsName>false</useRoleInAssociationEndAsName>
+</DataTypesDesign>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DIM_CLIENTE_LOGR" directorySegmentName="seg_0" id="DEEEB0FE-8E56-25CF-F0C2-72D2899AB13F">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:32:54 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="sk_cliente_logr" id="3BAFC8B4-9D25-34DE-9C54-003D239FBD5E">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:32:54 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sk_logradouro" id="4457B2A6-72EA-5D9F-DA78-B5887258BB6B">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:34:36 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dt_inicio" id="6974EFE5-A870-ED12-40BD-2FE73854A51D">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:32:54 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dt_fim" id="BFA2B3D8-3DD0-73D1-D34D-31CC487249D0">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:32:54 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sk_cliente" id="C5F8EC6E-A164-7844-9833-80A4626C34C8">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:34:22 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CLIENTE_LOGR" id="A179567B-FD62-BF88-5EA3-243D1D99A2E7">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:34:22 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_LOGR_CLIENTE" id="B835CB5E-7E40-5B59-C404-0F1E9DFD114A">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:34:36 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SK_DIM_CLIENTE_LOGR" id="3BEDB99A-0CC4-2B82-4CA5-DFB6F3E300F6">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:32:54 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DIM_TEMPO" directorySegmentName="seg_0" id="78481179-32D2-A1B9-C47D-F72D3682FC51">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="dt_data" id="0377E9D2-6E55-0AD2-17BC-9795022465CD">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_semestre" id="2361B854-3F16-FD60-FA00-83A7CFBED39D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nm_mes" id="4A1B76C1-0FA8-022D-E9B1-5C15B9F4F262">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nm_feriado" id="87CEC5C4-310F-54B2-991B-2017A3ED180C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_trimestre" id="92B9212E-5AAD-0CAC-656D-460EDA48E82C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_quinzena" id="98099280-4AC9-2028-9F36-6D92902369B4">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_dia" id="D64C0C14-8CEB-3EE0-C5FA-AAF36705BA5C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_ano" id="F3C3B08F-4080-3525-5041-B29418FCB2F1">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sk_tempo" id="FA911E32-0F54-C135-F3AE-801CF4A8FC4D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nm_dia_semana_extenso" id="FF87692C-E893-1C05-568B-ABE3528121CF">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DIM_TEMPO_PK" id="68D0D74E-B861-C8B1-D6A0-823CD68820F3">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="68507D78-9A83-D354-7AA9-348824DF170B" name="DIM PRODUTO">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<generatorID>5C401967-2855-11BA-C2B3-4A2A01A221BC</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sk_produto" id="ED868651-E645-32F6-E7FC-00FE1BE8B204">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Produto. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão Vendedor. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>068D2CC0-2C27-D0E2-5F05-6C63D77548C3</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_produto" id="831CC397-AF89-3F6C-DC02-779CBFBE97BD">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Esta é código do produto da Dimensão Produto. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é código do produto da Dimensão Produto. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>2E583AC2-9087-6716-F5F1-3121CCA4E161</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_produto" id="E1FF89DF-BFC6-5E6C-EB72-EC0E65823A93">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Esta é nome do produto da Dimensão Produto. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é nome do produto da Dimensão Produto. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>AE4924B0-D556-8494-D987-2C83781D06CE</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_codigo_barras" id="3C507F6E-EE4A-C107-9002-B54F8339F2C5">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Esta é número do codigo de barras da Dimensão Produto. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é número do codigo de barras da Dimensão Produto. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>A976ABD8-9A18-0286-8D2F-9CC4B88D5CF3</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_embalagem" id="42A32B95-402D-1B9D-3F15-B541FEF3FA74">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[As possíveis embalagens são: Caixa, Unidade e Fardo.]]></comment>
+<commentInRDBMS><![CDATA[As possíveis embalagens são: Caixa, Unidade e Fardo.]]></commentInRDBMS>
+<generatorID>6763BD1C-1990-87A0-9133-FFEE7CFC3F16</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E098A616-4AC3-90D5-1C4C-9155FE39C6B3" name="DIM PRODUTO PK">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<generatorID>23D5FE9A-B9A8-3BB3-98A2-8216EC469D70</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ED868651-E645-32F6-E7FC-00FE1BE8B204</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

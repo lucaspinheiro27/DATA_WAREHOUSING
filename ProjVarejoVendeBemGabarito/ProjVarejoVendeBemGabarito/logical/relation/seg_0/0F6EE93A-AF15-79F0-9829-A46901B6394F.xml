@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TEMPO_FK" directorySegmentName="seg_0" id="0F6EE93A-AF15-79F0-9829-A46901B6394F">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<generatorID>08C12068-17C2-0CD5-6830-1450EA6818B4</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<sourcePk>7EA4101C-B768-B678-7E36-AA3B3124F5F7</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>194903CC-59C3-6858-5BDD-7A27258BBC1C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E381FBAE-D030-B42D-E630-B3E43E593C4C</targetEntity>
+<transferable>true</transferable>
+</Relation>

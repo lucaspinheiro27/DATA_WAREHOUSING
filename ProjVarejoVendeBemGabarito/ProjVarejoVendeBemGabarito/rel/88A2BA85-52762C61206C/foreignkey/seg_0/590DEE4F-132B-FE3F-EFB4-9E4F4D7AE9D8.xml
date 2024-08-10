@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="590DEE4F-132B-FE3F-EFB4-9E4F4D7AE9D8" containerWithKeyObject="A3301D63-A302-A90C-95FD-85C1A805D5E5" localFKIndex="EBF0BCA3-339D-F21C-A8DD-5423CEB02C09" name="REL_PROM_VDA">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<generatorID>E2FD0854-43A9-36EC-601C-F5E904A60850</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<referredTableLongName>DIM_PROMOCAO</referredTableLongName>
+<deleteRule>RESTRICT</deleteRule>
+<referredTableID>45691277-8862-0003-C526-5954410DD3A7</referredTableID>
+<keyObject>CA8BF564-0060-78E7-2BC8-CB6FB44BAA86</keyObject>
+<referredKeyID>CA8BF564-0060-78E7-2BC8-CB6FB44BAA86</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sk_promocao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>false</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

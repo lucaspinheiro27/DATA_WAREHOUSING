@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DIM_LOJA" directorySegmentName="seg_0" id="FF3751C5-ECBD-2929-9753-E1E5FB31FFDC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nm_estado" id="66CF8A88-887B-5DA0-ED6D-43EFB25CDE63">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cd_loja" id="87FD9B8D-8836-6519-E47B-7ABAAFEA607A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nm_loja" id="9EF423D7-7E36-12A4-0166-C77C1C837FF8">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nm_cidade" id="BD7EBE42-0312-A02B-97EF-968850A94791">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nm_bairro" id="C77504F1-33DF-557E-780B-4DC4DBEB68D6">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sk_loja" id="F1778411-7433-B188-55D9-93CF4BE161F0">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DIM_LOJA_PK" id="794581E0-517C-BC67-00A2-0F4D7055A9EF">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

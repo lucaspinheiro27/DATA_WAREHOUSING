@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CD5EEBCE-6BFE-E222-4040-B6D49BF4A8BB" containerWithKeyObject="A3301D63-A302-A90C-95FD-85C1A805D5E5" localFKIndex="05553E17-2ACA-F032-7EB6-9BA5FBB4E585" name="REL_LOJA_VDA">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<generatorID>F04683EA-4D82-7122-741C-4CA083CB5CE4</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<referredTableLongName>DIM_LOJA</referredTableLongName>
+<deleteRule>RESTRICT</deleteRule>
+<referredTableID>FF3751C5-ECBD-2929-9753-E1E5FB31FFDC</referredTableID>
+<keyObject>794581E0-517C-BC67-00A2-0F4D7055A9EF</keyObject>
+<referredKeyID>794581E0-517C-BC67-00A2-0F4D7055A9EF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sk_loja</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>false</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

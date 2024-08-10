@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="194903CC-59C3-6858-5BDD-7A27258BBC1C" name="DIM TEMPO">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<generatorID>2F7DFD57-2292-E29A-DA62-1BEF61BAC933</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sk_tempo" id="02CEE139-F471-AB92-0612-016ED79A4244">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>AE93D1DF-5F5E-0960-BB5C-DE4E34B00C6E</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_data" id="2CDF80CF-3996-721B-97E4-0C089992790F">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-04-04 12:01:59 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber informações sobre a data, contendo dia mes ano hora minuto e segundo. Atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber informações sobre a data, contendo dia mes ano hora minuto e segundo. Atributo obrigatório.]]></commentInRDBMS>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_dia" id="83FA61F2-69E4-9232-F7FE-FBF28DCE2E29">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Este dado representa o dia da semana que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Este dado representa o dia da semana que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>F604078D-FE2C-39C1-6105-9420C856325E</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_dia_semana_extenso" id="781A28F6-C418-7003-CC6A-F8E364A6CCA8">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Este dado representa o dia por extenso da semana que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo string.]]></comment>
+<commentInRDBMS><![CDATA[Este dado representa o dia por extenso da semana que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo string.]]></commentInRDBMS>
+<generatorID>A211A80A-15C1-0FDD-9FC3-CA8BD0DB4E87</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_mes" id="BFC694E5-5937-6DFF-83DF-46127CD7A9AC">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Este dado representa o mes por extenso da semana que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo string.]]></comment>
+<commentInRDBMS><![CDATA[Este dado representa o mes por extenso da semana que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo string.]]></commentInRDBMS>
+<generatorID>46154FC2-ACC8-E799-92CE-89E5204E93B3</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ano" id="3D3A1120-4DFA-2414-10FC-3970BCE1FBB4">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Este dado representa o ano que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico. ]]></comment>
+<commentInRDBMS><![CDATA[Este dado representa o ano que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico. ]]></commentInRDBMS>
+<generatorID>B9BA6BA2-00F8-C480-A315-0BDF8CCF5766</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_quinzena" id="54B4ED80-07C3-12F1-0F49-66CB12873C22">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Este dado representa o número da quinzena que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico. Possíveis valores: 1 e 2.]]></comment>
+<commentInRDBMS><![CDATA[Este dado representa o número da quinzena que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico. Possíveis valores: 1 e 2.]]></commentInRDBMS>
+<generatorID>6B90A46D-FAD8-3D6D-6E2E-01B72F8D747E</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_trimestre" id="15F06FD5-1F81-82F8-C51E-6B021EE9CAB9">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Este dado representa o número do trimestre que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico. Possíveis valores: 1,2,3 e 4 trimestre.]]></comment>
+<commentInRDBMS><![CDATA[Este dado representa o número do trimestre que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico. Possíveis valores: 1,2,3 e 4 trimestre.]]></commentInRDBMS>
+<generatorID>1295FD0A-AA9A-9016-3288-B82764204105</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_semestre" id="0FA79B0B-7E90-2528-968C-2FDF3CB7D90F">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Este dado representa o número do semestre que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico. Possíveis valores: 1 e 2.]]></comment>
+<commentInRDBMS><![CDATA[Este dado representa o número do semestre que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico. Possíveis valores: 1 e 2.]]></commentInRDBMS>
+<generatorID>3AE2A02E-2D8A-6C20-F70B-78FF45E70D22</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_feriado" id="CCA023F4-2959-0F67-974C-D9EB0BF5B32E">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Este dado representa o nome do feriado que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser opcional e do tipo string. ]]></comment>
+<commentInRDBMS><![CDATA[Este dado representa o nome do feriado que ocorreu o evento na Dimensão Tempo. Seu conteúdo deve ser opcional e do tipo string. ]]></commentInRDBMS>
+<generatorID>7031DBA4-86EB-F8C0-2398-3FC076DB702E</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7EA4101C-B768-B678-7E36-AA3B3124F5F7" name="DIM TEMPO PK">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<generatorID>DF99BE29-EEE2-FC14-3590-F0F1AAB0252B</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02CEE139-F471-AB92-0612-016ED79A4244</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

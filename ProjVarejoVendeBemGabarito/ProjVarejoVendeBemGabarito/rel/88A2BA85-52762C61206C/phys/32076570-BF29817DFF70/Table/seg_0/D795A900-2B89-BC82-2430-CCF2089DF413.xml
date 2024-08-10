@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DIM_CIDADE" directorySegmentName="seg_0" id="D795A900-2B89-BC82-2430-CCF2089DF413">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:17:19 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nm_cidade" id="3261EEEC-17CF-78E3-9E07-ECBBA9A09FE2">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:17:19 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_codigo_ibge" id="8F1BB770-E812-34EB-AEA0-71EA5E55CB2A">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:17:19 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sk_estado" id="B13E2B8F-7106-DF59-BC56-5D09971D7F88">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:23:29 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sk_cidade" id="ED13E8B6-5691-3700-D25E-EEE6E0501A72">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:17:19 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIM_ESTADO_CIDADE" id="E87DBF18-D154-B1E3-CB90-806EA9CB565A">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:23:29 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SK_DIM_CIDADE" id="755A32EA-0068-87C9-615A-D884E6C58376">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:17:19 UTC</createdTime>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

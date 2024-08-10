@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8DB435F-0BBC-CA53-E45B-6F346C247D0A" name="DIM_CLIENTE">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:03:31 UTC</createdTime>
+<generatorID>22DEC4DB-AB5F-11CD-EC47-CCC168D259F8</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<ordsAlias>dim_promocaov1</ordsAlias>
+<typeID>2</typeID>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_cliente" id="B2F53879-97FE-C688-68C5-045DE0B6591A">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:03:31 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Cliente. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão Cliente. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>C402BCBA-A953-B8FA-5CFD-74976166DD12</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="nm_cliente" id="E76124C8-AE9B-3EC6-ABF1-B2EE18742734">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:03:31 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o nome do cliente. Seu conteúdo deve ser obrigatório e do tipo caractere..]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o nome do cliente. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></commentInRDBMS>
+<generatorID>0908A6E5-FCCD-0743-A057-F79CB0748F7F</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="ds_estado_civil" id="92D14408-0F81-6AC0-7B72-06353703C0A2">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:03:31 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o Estado Civil do cliente. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o Estado Civil do cliente. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></commentInRDBMS>
+<generatorID>B935970C-478B-0BC7-C228-9247AC2A45AC</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="ds_escolaridade" id="842CEF95-ACB9-BA1D-05EE-BF42FE969AF6">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:03:31 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a Escolaridade do cliente. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber a Escolaridade do cliente. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></commentInRDBMS>
+<generatorID>F4DA15E0-2BC5-00AE-3FE7-9628446A236F</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="dt_nascimento" id="1683E4BC-A133-5DD5-3159-42A327642524">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:03:31 UTC</createdTime>
+<comment><![CDATA[Esta é a data de nascimento do cliente.. Seu conteúdo deve ser obrigatório e do tipo data.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a data de nascimento do cliente.. Seu conteúdo deve ser obrigatório e do tipo data.]]></commentInRDBMS>
+<generatorID>A95594B1-7D31-DD70-916C-53AE7A1A2220</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5960E3C9-60A5-2E3E-529D-B6098CBAF514" name="SK_DIM_CLIENTE">
+<createdBy>oivla</createdBy>
+<createdTime>2024-08-06 13:03:31 UTC</createdTime>
+<generatorID>D75A8AEB-9E7E-19AA-C1B0-25FC69F6413A</generatorID>
+<ownerDesignName>ProjVarejoVendeBemGabarito</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B2F53879-97FE-C688-68C5-045DE0B6591A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
