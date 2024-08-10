@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9134946D-5473-3C30-EDB3-B21BBCF55222" name="FTO_VENDAS">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:06:44 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<typeID>1</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_VENDAS" id="1DD0FFC6-CAF5-266C-8810-E414954DC85E">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:07:08 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_FAIXA_ETARIA" id="16C1236B-D1FC-E2E5-2D62-FF1B078A06F8">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-15 17:32:29 UTC</createdTime>
+<generatorID>4E60B56C-FCA0-627A-FDE2-2BD2C99C4DE0</generatorID>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<referedAttribute>B75FE9FF-5BD2-6421-5320-0E0033D3FE27</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_VENDAS" id="97DE73E5-6D8D-860B-C31D-6278FABBBFF4">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:07:22 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_NF" id="84890D2A-1BB7-FAA9-B441-54F830024D11">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:07:49 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QT_VENDA" id="93F581FF-E260-FDCD-9885-FD1307545171">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:08:04 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_UNITARIO" id="A4265222-103C-9608-422A-7F3CA84220AE">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:08:19 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="393A5522-53E8-1F99-EDE6-98D94D5F0573" name="PK_FTO_VENDAS">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:10:55 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>1DD0FFC6-CAF5-266C-8810-E414954DC85E</newElementsIDs>
+<usedAttributes>
+<attributeRef>1DD0FFC6-CAF5-266C-8810-E414954DC85E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

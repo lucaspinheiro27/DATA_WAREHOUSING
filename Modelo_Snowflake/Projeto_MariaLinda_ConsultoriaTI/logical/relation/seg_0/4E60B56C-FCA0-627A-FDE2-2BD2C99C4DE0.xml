@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIM_FX_ETARIA_VENDAS" directorySegmentName="seg_0" id="4E60B56C-FCA0-627A-FDE2-2BD2C99C4DE0">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-15 17:32:29 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<sourcePk>98AAD404-40F7-ED18-4A43-D338580BA130</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9410B973-2F8C-42DA-55E8-92FBB1CA49AF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9134946D-5473-3C30-EDB3-B21BBCF55222</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

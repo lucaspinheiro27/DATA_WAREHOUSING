@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIM_PRODUTO_VENDAS" directorySegmentName="seg_0" id="A2E89A7A-62D2-9FED-AF09-D47161B98DC9">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:18:50 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<sourcePk>17CF3B57-28EC-CC5D-DFE5-B08D649045D7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>27D6EFAF-CB31-C049-377F-45760C160C13</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9134946D-5473-3C30-EDB3-B21BBCF55222</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

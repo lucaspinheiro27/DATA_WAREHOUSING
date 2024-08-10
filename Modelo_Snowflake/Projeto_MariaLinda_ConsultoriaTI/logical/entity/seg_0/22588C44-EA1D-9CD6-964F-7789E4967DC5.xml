@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22588C44-EA1D-9CD6-964F-7789E4967DC5" name="DIM_TEMPO">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:13:40 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_TEMPO" id="43F28A98-4608-52A0-1DB3-A09A8401EC63">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:13:40 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_EVENTO" id="78B202C7-1A10-ED78-5EAD-67D6C80F9B41">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:13:40 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_ANO" id="DA9275BB-BD9D-001C-F4C8-7F3E705A4251">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:15:55 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_MES" id="6EF9608E-CFE0-D0F1-4ADE-28EBB67D31BA">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:15:45 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B89DAAD-F75F-8D38-CCAC-44B3B758C413" name="PK_DIM_TEMPO">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:13:40 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>43F28A98-4608-52A0-1DB3-A09A8401EC63</newElementsIDs>
+<usedAttributes>
+<attributeRef>43F28A98-4608-52A0-1DB3-A09A8401EC63</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27D6EFAF-CB31-C049-377F-45760C160C13" name="DIM_PRODUTO">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:17:55 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_PRODUTO" id="2BF622DA-F2CA-A47C-1EA4-6537F53BF1F1">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:17:55 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_PRODUTO" id="9D0A9CF8-7D2D-C1ED-6E28-1DE2BA256EBC">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:17:55 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_PRODUTO" id="B5926EA8-8666-B31A-0040-7DA7270A7EA9">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:17:55 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17CF3B57-28EC-CC5D-DFE5-B08D649045D7" name="gambiarra_assimmesmo">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 01:17:55 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>2BF622DA-F2CA-A47C-1EA4-6537F53BF1F1</newElementsIDs>
+<usedAttributes>
+<attributeRef>2BF622DA-F2CA-A47C-1EA4-6537F53BF1F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

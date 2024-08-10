@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIM_LOCALIZACAO_VENDAS" directorySegmentName="seg_0" id="C398DAC9-930A-5FAB-CA3C-9971AACA464E">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-15 17:32:54 UTC</createdTime>
+<ownerDesignName>Projeto_MariaLinda_ConsultoriaTI</ownerDesignName>
+<engineerTo>
+<item key="06B9D3E4-A1CB-7573-033D-A66ED9836D6F" value="true"/>
+</engineerTo>
+<sourcePk>4F3A7F84-06F4-8210-AF33-DC2645E8DD8D</sourcePk>
+<targetPk>393A5522-53E8-1F99-EDE6-98D94D5F0573</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FE23B153-A112-D1DB-4A53-C9ACE2B6F1FF</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9134946D-5473-3C30-EDB3-B21BBCF55222</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
