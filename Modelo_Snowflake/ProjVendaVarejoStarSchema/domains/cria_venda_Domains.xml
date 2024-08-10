@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="cria_venda_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_7" id="0EA86B8C-3603-13DC-CEE6-FF56D8A5A93A">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 22:22:28 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>7</dataTypeSize>
+<fileName>cria_venda_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_8_2_0" id="3FB9E0BB-65B8-EB7B-1FAF-60AED0ABBA17">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 22:22:28 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>cria_venda_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_60" id="6BFC2F81-E799-F3FA-EFD4-D410FBF3953D">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 22:22:28 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>60</dataTypeSize>
+<fileName>cria_venda_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_9" id="719C4E56-1AA1-3C1A-D8F9-951005F9A21B">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 22:22:28 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>9</dataTypeSize>
+<fileName>cria_venda_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_4_0_0" id="762327EE-DD4E-DCDE-EFC1-4FB460A48156">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 22:22:28 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>cria_venda_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_9_0_0" id="912769E0-676B-FC99-1688-817CD0D6EFDB">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 22:22:28 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>cria_venda_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_9_2_0" id="91F6B81F-3A80-233C-B0C3-67223700E413">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 22:22:28 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>cria_venda_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_2_0_0" id="A4453B8E-7A31-EE3C-F2FE-758D7C1C928B">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 22:22:28 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>cria_venda_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_8_0_0" id="D47EB5BE-FF58-F835-0F5C-567B936B147B">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 22:22:28 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>cria_venda_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="D861C787-6602-5221-0BBC-60299F20FF6D">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 22:22:28 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>cria_venda_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_1_0_0" id="F7C864F4-7291-C05D-E74A-2BCEE4F4C8BE">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 22:22:28 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>cria_venda_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

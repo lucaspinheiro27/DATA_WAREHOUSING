@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_PROM_VDA" directorySegmentName="seg_0" id="E2FD0854-43A9-36EC-601C-F5E904A60850">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-04-04 12:14:22 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<sourcePk>D75A8AEB-9E7E-19AA-C1B0-25FC69F6413A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>22DEC4DB-AB5F-11CD-EC47-CCC168D259F8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E381FBAE-D030-B42D-E630-B3E43E593C4C</targetEntity>
+<transferable>true</transferable>
+</Relation>

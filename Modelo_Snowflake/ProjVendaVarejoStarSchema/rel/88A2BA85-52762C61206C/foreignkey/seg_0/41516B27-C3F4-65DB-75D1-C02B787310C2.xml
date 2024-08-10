@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="41516B27-C3F4-65DB-75D1-C02B787310C2" containerWithKeyObject="A3301D63-A302-A90C-95FD-85C1A805D5E5" localFKIndex="7C8AC966-8B24-CC2D-AF85-0AC0F7BF3BCC" name="PRODUTO_FK">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<generatorID>81661276-C40F-BA84-1D06-B29AA6369D6C</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<referredTableLongName>DIM_PRODUTO</referredTableLongName>
+<deleteRule>RESTRICT</deleteRule>
+<referredTableID>82308723-36DC-E0F3-6D8A-D6C9B926DEF1</referredTableID>
+<keyObject>F7D93D62-F12B-68C7-016E-F6F53174BB5D</keyObject>
+<referredKeyID>F7D93D62-F12B-68C7-016E-F6F53174BB5D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sk_produto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>false</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

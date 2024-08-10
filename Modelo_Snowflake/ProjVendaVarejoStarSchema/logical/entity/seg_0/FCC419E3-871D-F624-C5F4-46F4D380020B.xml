@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCC419E3-871D-F624-C5F4-46F4D380020B" name="DIM VENDEDOR">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<generatorID>FE9C2340-17AD-6376-C6B5-2B3254D70A70</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sk_vendedor" id="652A2565-5D62-DAA0-E7C3-544D0E43CFF4">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Vendedor. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão Vendedor. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>3991C532-26E0-B79D-CFC6-345253499184</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_vendedor" id="45B1584C-967A-4436-9DBC-737D3586D57D">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Esta é código do vendedor da Dimensão Vendedor. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é código do vendedor da Dimensão Vendedor. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>898D4E9D-6334-9072-2A97-6D92FFAB89AD</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_vendedor" id="65AD1480-263F-8A7E-CDDA-282A7D83248A">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Esta é nome do vendedor da Dimensão Vendedor. Seu conteúdo deve ser obrigatório e do tipo string.]]></comment>
+<commentInRDBMS><![CDATA[Esta é nome do vendedor da Dimensão Vendedor. Seu conteúdo deve ser obrigatório e do tipo string.]]></commentInRDBMS>
+<generatorID>5D9313C9-63D9-3DF6-91C8-B24236845300</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="05EC6AA2-D4C5-7C4D-F52A-1B7DBAFE832A">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Esta é numero do CPF do vendedor da Dimensão Vendedor. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é numero do CPF do vendedor da Dimensão Vendedor. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>187D142C-C2A4-C23B-FFA0-A21D88414CCF</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_sexo" id="4BEE2494-F1CD-43C2-BB2B-47ACD61BDF18">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Os tipos de sexo possíveis são: Feminino, Masculino e Hermafrodita.]]></comment>
+<commentInRDBMS><![CDATA[Os tipos de sexo possíveis são: Feminino, Masculino e Hermafrodita.]]></commentInRDBMS>
+<generatorID>7F9F2DDD-F893-F18E-5E3B-417AD07B299B</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED9F4995-1675-7C61-4AF8-FCE667BFD666" name="DIM VENDEDOR PK">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<generatorID>AD7C87BA-296B-3CB6-97EF-118B5D8A6255</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>652A2565-5D62-DAA0-E7C3-544D0E43CFF4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

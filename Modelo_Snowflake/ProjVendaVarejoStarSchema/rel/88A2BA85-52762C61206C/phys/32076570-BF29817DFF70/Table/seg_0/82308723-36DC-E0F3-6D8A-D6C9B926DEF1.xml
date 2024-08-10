@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DIM_PRODUTO" directorySegmentName="seg_0" id="82308723-36DC-E0F3-6D8A-D6C9B926DEF1">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ds_embalagem" id="36C17ECE-E901-0F05-3507-B02BADFDED97">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sk_produto" id="6018BDB1-D01A-5E94-C8A9-E4900DDEA5D9">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cd_produto" id="8BF23783-FC67-A4EB-FA82-5AABF8874C75">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_codigo_barras" id="8BF8FCB1-7D77-45CB-0789-2AB21C879FEC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nm_produto" id="E1D97418-20D7-5288-ED78-3DDC93D93237">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DIM_PRODUTO_PK" id="F7D93D62-F12B-68C7-016E-F6F53174BB5D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2024-07-16 21:12:50 UTC</createdTime>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

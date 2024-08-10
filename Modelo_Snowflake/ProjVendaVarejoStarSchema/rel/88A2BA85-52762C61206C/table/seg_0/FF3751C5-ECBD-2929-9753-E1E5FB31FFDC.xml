@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF3751C5-ECBD-2929-9753-E1E5FB31FFDC" name="DIM_LOJA">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<generatorID>ED25508C-AA18-C3BF-68F1-425E500DB12F</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<typeID>2</typeID>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_loja" id="F1778411-7433-B188-55D9-93CF4BE161F0">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Loja. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão Loja. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>3E209FD8-3511-4205-5371-A28A9ADEE568</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="cd_loja" id="87FD9B8D-8836-6519-E47B-7ABAAFEA607A">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é código do Loja da Dimensão Loja.. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é código do Loja da Dimensão Loja.. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>1AB38599-FFF9-0049-1DB1-393B11D73540</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="nm_loja" id="9EF423D7-7E36-12A4-0166-C77C1C837FF8">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é nome da loja da Dimensão Loja. Seu conteúdo deve ser obrigatório e do tipo string.]]></comment>
+<commentInRDBMS><![CDATA[Esta é nome da loja da Dimensão Loja. Seu conteúdo deve ser obrigatório e do tipo string.]]></commentInRDBMS>
+<generatorID>00529C7F-98FC-CAE8-A106-DD6DF1FF7F42</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="nm_estado" id="66CF8A88-887B-5DA0-ED6D-43EFB25CDE63">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é nome do Estado da loja . Seu conteúdo deve ser obrigatório e do tipo string.]]></comment>
+<commentInRDBMS><![CDATA[Esta é nome do Estado da loja . Seu conteúdo deve ser obrigatório e do tipo string..]]></commentInRDBMS>
+<generatorID>98424081-ADA8-6B94-A704-A1AC9584AABF</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>25</dataTypePrecision>
+<ownDataTypeParameters>,25,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="nm_cidade" id="BD7EBE42-0312-A02B-97EF-968850A94791">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é nome da Cidade da loja . Seu conteúdo deve ser obrigatório e do tipo string.]]></comment>
+<commentInRDBMS><![CDATA[Esta é nome do Estado da loja . Seu conteúdo deve ser obrigatório e do tipo string.]]></commentInRDBMS>
+<generatorID>8544F963-6F2A-370C-BE1A-FB9DB9C17347</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="nm_bairro" id="C77504F1-33DF-557E-780B-4DC4DBEB68D6">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é nome do Bairro da loja . Seu conteúdo deve ser obrigatório e do tipo strin]]></comment>
+<commentInRDBMS><![CDATA[Esta é nome do Bairro da loja . Seu conteúdo deve ser obrigatório e do tipo string.]]></commentInRDBMS>
+<generatorID>D6CD098F-99A1-134C-FAF4-94D648D78B96</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="794581E0-517C-BC67-00A2-0F4D7055A9EF" name="DIM_LOJA_PK">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<generatorID>5ED06D32-0B90-6187-28C3-FF6315EE4D0E</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F1778411-7433-B188-55D9-93CF4BE161F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

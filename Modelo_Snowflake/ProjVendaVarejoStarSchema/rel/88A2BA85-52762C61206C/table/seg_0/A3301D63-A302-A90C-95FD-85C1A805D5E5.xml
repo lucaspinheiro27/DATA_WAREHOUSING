@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3301D63-A302-A90C-95FD-85C1A805D5E5" name="FTO_VENDA">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<generatorID>E381FBAE-D030-B42D-E630-B3E43E593C4C</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<typeID>1</typeID>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_vendedor" id="5FD8C723-6ADA-434C-AAE8-9CF7E2FA5F66">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Vendedor. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão Vendedor. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>88FD6E4B-459C-6AEF-E405-A7994CA5FECF</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<associations>
+<colAssociation fkAssociation="9DB4C951-56F9-5346-62D2-B3F56C7D23BB" referredColumn="D68F4931-5F8B-2086-9114-F0E401D8C6A8"/>
+</associations>
+</Column>
+<Column name="sk_tempo" id="D1DB7672-1256-AB77-1984-1DFF3899A249">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>E814BD74-7AC7-91D1-51F1-9EC7B80E0967</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<associations>
+<colAssociation fkAssociation="0CE3A652-041A-C30A-C882-FF5EB57E008F" referredColumn="FA911E32-0F54-C135-F3AE-801CF4A8FC4D"/>
+</associations>
+</Column>
+<Column name="sk_produto" id="54703F87-60C5-AEF1-D46E-94890988458D">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Produto. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<generatorID>84B42595-2B09-4AB6-F574-03EBB0C49EEC</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<associations>
+<colAssociation fkAssociation="41516B27-C3F4-65DB-75D1-C02B787310C2" referredColumn="6018BDB1-D01A-5E94-C8A9-E4900DDEA5D9"/>
+</associations>
+</Column>
+<Column name="sk_promocao" id="DEA0A358-FF65-95B6-D894-AECC6981DE08">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Promoção. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<generatorID>FD8B2A00-8BAA-8C7C-A5FF-E09FAC9C1723</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<associations>
+<colAssociation fkAssociation="590DEE4F-132B-FE3F-EFB4-9E4F4D7AE9D8" referredColumn="8962B588-1D2E-3F67-CC00-27CF470504CB"/>
+</associations>
+</Column>
+<Column name="sk_loja" id="04354093-2D57-E631-5CCE-9FEAD77560CB">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Loja. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<generatorID>C70ACE63-19CA-FFBC-277E-0872CB21A5C3</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<associations>
+<colAssociation fkAssociation="CD5EEBCE-6BFE-E222-4040-B6D49BF4A8BB" referredColumn="F1778411-7433-B188-55D9-93CF4BE161F0"/>
+</associations>
+</Column>
+<Column name="nr_qtde_veda" id="83CE23ED-AF9A-1359-86E0-97D8D13A06DC">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Este dado representa a quantidade de venda realizada. Seu conteúdo deve ser obrigatório e do tipo numérico com 2 casas decimais.]]></comment>
+<commentInRDBMS><![CDATA[Este dado representa a quantidade de venda realizada. Seu conteúdo deve ser obrigatório e do tipo numérico com 2 casas decimais.]]></commentInRDBMS>
+<generatorID>7774AA00-2C7B-EC01-AFB9-285CE4FF81AE</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="vl_unit_vda" id="1E8A2D62-4829-0492-811A-BCA1E960D00C">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Este dado representa a o valor unitario da venda realizada. Seu conteúdo deve ser obrigatório e do tipo numérico com 2 casas decimais.]]></comment>
+<commentInRDBMS><![CDATA[Este dado representa a o valor unitario da venda realizada. Seu conteúdo deve ser obrigatório e do tipo numérico com 2 casas decimais.]]></commentInRDBMS>
+<generatorID>7D7097BB-876B-7E90-4235-4A914B495552</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+<Column name="vl_tot_vda" id="78648BB5-2A58-EBF0-606E-AA95CC6B66A8">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<comment><![CDATA[Este dado representa a o valor total da venda realizada. Seu conteúdo deve ser obrigatório e do tipo numérico com 2 casas decimais.]]></comment>
+<generatorID>A2683534-105B-B616-E73F-D2B40FA7BB30</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3923BEF-177A-42BE-890C-DE553FC73EE1" name="FTO_VENDA_PK">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<generatorID>A5D1F121-69BD-3D56-45D5-BD24A9F0F48C</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5FD8C723-6ADA-434C-AAE8-9CF7E2FA5F66"/>
+<colUsage columnID="D1DB7672-1256-AB77-1984-1DFF3899A249"/>
+<colUsage columnID="54703F87-60C5-AEF1-D46E-94890988458D"/>
+<colUsage columnID="DEA0A358-FF65-95B6-D894-AECC6981DE08"/>
+<colUsage columnID="04354093-2D57-E631-5CCE-9FEAD77560CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C8AC966-8B24-CC2D-AF85-0AC0F7BF3BCC" name="PRODUTO_FK">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<generatorID>81661276-C40F-BA84-1D06-B29AA6369D6C</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="54703F87-60C5-AEF1-D46E-94890988458D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05553E17-2ACA-F032-7EB6-9BA5FBB4E585" name="REL_LOJA_VDA">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<generatorID>F04683EA-4D82-7122-741C-4CA083CB5CE4</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="04354093-2D57-E631-5CCE-9FEAD77560CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBF0BCA3-339D-F21C-A8DD-5423CEB02C09" name="REL_PROM_VDA">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<generatorID>E2FD0854-43A9-36EC-601C-F5E904A60850</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="DEA0A358-FF65-95B6-D894-AECC6981DE08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33966E5E-88D7-9D67-3E42-493B73AF0534" name="TEMPO_FK">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<generatorID>0F6EE93A-AF15-79F0-9829-A46901B6394F</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="D1DB7672-1256-AB77-1984-1DFF3899A249"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A83D3AB7-BB7F-147E-2B17-38BCA1653B7C" name="VENDEDOR_FK">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<generatorID>7026F1A4-2163-93A9-9E2D-D01E7E608D51</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="5FD8C723-6ADA-434C-AAE8-9CF7E2FA5F66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

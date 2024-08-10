@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VENDEDOR_FK" directorySegmentName="seg_0" id="7026F1A4-2163-93A9-9E2D-D01E7E608D51">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<generatorID>53CD2EDB-D919-8183-B14E-85BA3AE63D3D</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<sourcePk>ED9F4995-1675-7C61-4AF8-FCE667BFD666</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FCC419E3-871D-F624-C5F4-46F4D380020B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E381FBAE-D030-B42D-E630-B3E43E593C4C</targetEntity>
+<transferable>true</transferable>
+</Relation>

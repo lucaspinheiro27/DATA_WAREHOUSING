@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E381FBAE-D030-B42D-E630-B3E43E593C4C" name="FTO VENDA">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<generatorID>E77D7728-EED9-B361-601A-5A83903EECF0</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<typeID>1</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sk_vendedor" id="88FD6E4B-459C-6AEF-E405-A7994CA5FECF">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Vendedor. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão Vendedor. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>7026F1A4-2163-93A9-9E2D-D01E7E608D51</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<referedAttribute>652A2565-5D62-DAA0-E7C3-544D0E43CFF4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sk_tempo" id="E814BD74-7AC7-91D1-51F1-9EC7B80E0967">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão Tempo. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<generatorID>0F6EE93A-AF15-79F0-9829-A46901B6394F</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<referedAttribute>02CEE139-F471-AB92-0612-016ED79A4244</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sk_produto" id="84B42595-2B09-4AB6-F574-03EBB0C49EEC">
+<createdBy>salviop</createdBy>
+<createdTime>2017-04-03 11:31:03 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Produto. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<generatorID>81661276-C40F-BA84-1D06-B29AA6369D6C</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<referedAttribute>ED868651-E645-32F6-E7FC-00FE1BE8B204</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sk_promocao" id="FD8B2A00-8BAA-8C7C-A5FF-E09FAC9C1723">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-04-04 12:14:22 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Promoção. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<generatorID>E2FD0854-43A9-36EC-601C-F5E904A60850</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<referedAttribute>C402BCBA-A953-B8FA-5CFD-74976166DD12</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sk_loja" id="C70ACE63-19CA-FFBC-277E-0872CB21A5C3">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-04-04 12:15:59 UTC</createdTime>
+<comment><![CDATA[Esta é a Surrogate Key da Dimensão Loja. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></comment>
+<generatorID>F04683EA-4D82-7122-741C-4CA083CB5CE4</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<referedAttribute>3E209FD8-3511-4205-5371-A28A9ADEE568</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_qtde_veda" id="7774AA00-2C7B-EC01-AFB9-285CE4FF81AE">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Este dado representa a quantidade de venda realizada. Seu conteúdo deve ser obrigatório e do tipo numérico com 2 casas decimais.]]></comment>
+<commentInRDBMS><![CDATA[Este dado representa a quantidade de venda realizada. Seu conteúdo deve ser obrigatório e do tipo numérico com 2 casas decimais.]]></commentInRDBMS>
+<generatorID>7AA185C4-FF5B-DDB6-67B2-9F8A0BD2BEFD</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_unit_vda" id="7D7097BB-876B-7E90-4235-4A914B495552">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Este dado representa a o valor unitario da venda realizada. Seu conteúdo deve ser obrigatório e do tipo numérico com 2 casas decimais.]]></comment>
+<commentInRDBMS><![CDATA[Este dado representa a o valor unitario da venda realizada. Seu conteúdo deve ser obrigatório e do tipo numérico com 2 casas decimais.]]></commentInRDBMS>
+<generatorID>EFF611CC-5641-4D4C-12FF-7491CA577861</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_tot_vda" id="A2683534-105B-B616-E73F-D2B40FA7BB30">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<comment><![CDATA[Este dado representa a o valor total da venda realizada. Seu conteúdo deve ser obrigatório e do tipo numérico com 2 casas decimais.]]></comment>
+<generatorID>B3126A23-4B75-EE60-FE7F-B88D2A26FAFD</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5D1F121-69BD-3D56-45D5-BD24A9F0F48C" name="FTO VENDA PK">
+<createdBy>logonpf</createdBy>
+<createdTime>2017-03-31 23:02:28 UTC</createdTime>
+<generatorID>A00204EF-3C12-5192-1FB4-AC58FD4B2FE3</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<engineerTo>
+<item key="88A2BA85-A119-5562-D41B-52762C61206C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88FD6E4B-459C-6AEF-E405-A7994CA5FECF</attributeRef>
+<attributeRef>E814BD74-7AC7-91D1-51F1-9EC7B80E0967</attributeRef>
+<attributeRef>84B42595-2B09-4AB6-F574-03EBB0C49EEC</attributeRef>
+<attributeRef>FD8B2A00-8BAA-8C7C-A5FF-E09FAC9C1723</attributeRef>
+<attributeRef>C70ACE63-19CA-FFBC-277E-0872CB21A5C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

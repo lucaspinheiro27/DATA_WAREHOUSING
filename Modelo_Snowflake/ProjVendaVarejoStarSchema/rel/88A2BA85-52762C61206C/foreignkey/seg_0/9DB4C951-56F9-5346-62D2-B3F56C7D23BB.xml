@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9DB4C951-56F9-5346-62D2-B3F56C7D23BB" containerWithKeyObject="A3301D63-A302-A90C-95FD-85C1A805D5E5" localFKIndex="A83D3AB7-BB7F-147E-2B17-38BCA1653B7C" name="VENDEDOR_FK">
+<createdBy>salviop</createdBy>
+<createdTime>2017-08-18 14:49:18 UTC</createdTime>
+<generatorID>7026F1A4-2163-93A9-9E2D-D01E7E608D51</generatorID>
+<ownerDesignName>ProjVendaVarejoStarSchema</ownerDesignName>
+<referredTableLongName>DIM_VENDEDOR</referredTableLongName>
+<deleteRule>RESTRICT</deleteRule>
+<referredTableID>62FC2BA5-C400-F664-3349-47C9180D0F17</referredTableID>
+<keyObject>18073FF1-7E53-FDCC-9C06-287C0E8255E0</keyObject>
+<referredKeyID>18073FF1-7E53-FDCC-9C06-287C0E8255E0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sk_vendedor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>false</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
