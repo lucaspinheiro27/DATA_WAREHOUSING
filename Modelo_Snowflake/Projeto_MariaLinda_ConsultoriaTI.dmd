@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projeto_MariaLinda_ConsultoriaTI" id="55679797-259D-3837-6F4A-DFA65F25A964" version="3.5">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2018-08-02 00:58:13 UTC</createdTime>
+<ownerDesignName>Vendas_SnowFlake</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>55679797-259D-3837-6F4A-DFA65F25A964</designId>
+</OSDM_Design>
